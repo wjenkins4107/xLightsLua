@@ -10,6 +10,3 @@ for i=0,arraylength do
     result = RunCommand('uploadController', parm)	
     Log('result = ' .. result['msg'])
 end
-
-
-
