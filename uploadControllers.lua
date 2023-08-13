@@ -8,7 +8,7 @@ for i=0,arraylength do
 	parm = {}
 	parm['ip'] = IP
     result = RunCommand('uploadController', parm)	
-	Log('result = ' .. result['msg'])
+    Log('result = ' .. result['msg'])
 end
 
 
